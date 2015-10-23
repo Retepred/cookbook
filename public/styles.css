@@ -1,0 +1,21 @@
+body {
+  position: relative;
+  width: 100%;
+  display: block;
+}
+
+body > *  {
+  margin: auto;
+  width: 500px;
+  display: block;
+  overflow: auto;
+}
+
+body > script {
+  display: none
+}
+
+body {
+    background-image: url("food_background.jpg");
+    background-color: #cccccc;
+}

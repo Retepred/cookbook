@@ -1,0 +1,11 @@
+<ul>
+  <% @categories.each do |category| %>
+    <li>
+      <%= category.name %>
+      <a href= "/categories/<%= category.id %>/edit">edit</a>
+      <form method='post' action="/categories/<%= category.id %>/delete">
+      <button>Delete</button>
+      </form>
+    </li>
+  <% end %>
+</ul>
